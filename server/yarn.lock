@@ -1761,7 +1761,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -3376,7 +3376,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -3467,7 +3467,7 @@ __metadata:
     vscode-languageserver: ^8.0.2
     vscode-languageserver-textdocument: ^1.0.7
     vscode-uri: ^3.0.7
-    web-tree-sitter: ^0.20.8
+    web-tree-sitter: ^0.25.8
   languageName: unknown
   linkType: soft
 
@@ -3866,11 +3866,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
   version: 4.8.2
-  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=3b564f"
+  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 28e130a49d9330b64b8229ad336247bf980e9a705c5850f30a859a68c051e8e68e367b3275f119da4a825dca71ad0fe315964a1315d4a381c0021bca5eeeb62e
+  checksum: 5cb0f02f414f5405f4b0e7ee1fd7fa9177b6a8783c9017b6cad85f56ce4c4f93e0e6f2ce37e863cb597d44227cd009474c9fbd85bf7a50004e5557426cb58079
   languageName: node
   linkType: hard
 
@@ -4017,10 +4017,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-tree-sitter@npm:^0.20.8":
-  version: 0.20.8
-  resolution: "web-tree-sitter@npm:0.20.8"
-  checksum: 300c8daf438422ff92f46b3d9768d7af84c1d680331f19ce109e48b5e4e137f1be8f9e446f13fae65afabbc61b62ed1d87f942ca1ab49d1a1aa7740817f98874
+"web-tree-sitter@npm:^0.25.8":
+  version: 0.25.9
+  resolution: "web-tree-sitter@npm:0.25.9"
+  peerDependencies:
+    "@types/emscripten": ^1.40.0
+  peerDependenciesMeta:
+    "@types/emscripten":
+      optional: true
+  checksum: e07fc82b876ed89286a68c4f2ba8f5308eb10c677f304c2437df0125180690688a5967279e06e1108b3e413d3fc37cf6a3b772bcdb91ef733e354b97f967b319
   languageName: node
   linkType: hard
 
